@@ -11,41 +11,47 @@
 </head>
 
 <body>
-        <div class="content-wrapper">
-            <div class="content-container">
-                <div class="logo-container">
-                    <img class="logo" src="/img/Instagram_logo.svg" alt="instagram logo">
-                </div>
-                <div class="form-container">
-                    <form id="loginform" action="POST">
-                        <div class="login-container">
-                            <label for="username" hidden>Phone number, username, or email</label>
-                            <input id="username" type="text" placeholder="Phone number, username, or email"
-                                name="username" required>
-                            <label for="password" hidden>Password</label>
-                            <input id="password" type="password" placeholder="Password" name="password" required>
-                            <button type="submit">Log in</button>
-                            <div class="divider-container">
-                                <span class="line"></span>
-                                <div>OR</div>
-                                <span class="line"></span>
-                            </div>
-                            <div class="loginfb-container">
-                                <img src="/img/Facebook_icon_2013.svg" alt="facebook logo">
-                                <a href="#">Log in with Facebook</a>
-                            </div>
-                            <div class="forgotpsw-container">
-                                <a href="#">Forgot password?</a>
-                            </div>
+    <div class="content-wrapper">
+        <div class="content-container">
+            <div class="logo-container">
+                <img class="logo" src="/img/Instagram_logo.svg" alt="instagram logo">
+            </div>
+            <div class="form-container">
+                <form id="loginform" action="POST">
+                    <div class="login-container">
+                        <!-- <label for="username" hidden>Phone number, username, or email</label> -->
+                        <input id="username" type="text" placeholder="Phone number, username, or email" name="username"
+                            required>
+                        <!-- <label for="password" hidden>Password</label> -->
+                        <input id="password" type="password" placeholder="Password" name="password" required>
+                        <button type="submit">Log in</button>
+                        <div class="divider-container">
+                            <span class="line"></span>
+                            <div>OR</div>
+                            <span class="line"></span>
                         </div>
-                    </form>
-                </div>
+                        <div class="loginfb-container">
+                            <img src="/img/Facebook_icon_2013.svg" alt="facebook logo">
+                            <a href="#">Log in with Facebook</a>
+                        </div>
+                        <div class="forgotpsw-container">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="signup-container">
-                <div>Don't have an account? <span>Sign up</span></div>
-            </div>
-            <span class="span">Get the app.</span>
         </div>
+        <div class="signup-container">
+            <div>Don't have an account? <a href="#">Sign up</a></div>
+        </div>
+        <div class="span-container">
+            <span>Get the app.</span>
+        </div>
+            <div class="img-container">
+                <a href="#"><img src="/img/Google_Play_Store_badge_EN.svg.png" alt="Google Play redirect link"></a>
+                <a href="#"><img src="/img/Get_it_from_Microsoft_Badge.webp" alt="Microsoft redirect link"></a>
+            </div>
+    </div>
 </body>
 
 </html>
